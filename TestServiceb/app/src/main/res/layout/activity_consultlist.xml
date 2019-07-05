@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    /
+
+    <ListView
+        android:id="@+id/listView1"
+
+        android:dividerHeight="3dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <string-array
+            android:name="data">
+            <item >first</item>
+            <item >second</item>
+            <item >third</item>
+        </string-array>
+    </ListView>
+
+
+
+</LinearLayout>

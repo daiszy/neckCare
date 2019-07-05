@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\fdc4087518f0b3630c2b185b3b5e0cbd857ab1df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2ed5d8f90fadbfa1098d859cda836de0dc31d265">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_3cea767851f56fcf24a5e9171f52ebe17cbefdac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\picasso-2.3.2_ce13fa12dd0bc8e310be2d0512b1fbb497932a71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\84502c691b8f153aefc1f89b57b132870f77509d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_bc627b8489e112a5fbd9f03f85d0b20eb128457c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\42cfdb66de3073b8b560c4533978280fc2a3842a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_f381e6dba86aab5c1f437c1a864ac4139efe8d49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\755f09204681e47546b2ffda04ca1f9c165a72c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_f27cc4ceca21fcb8651d5a8c688459cfd1987913.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="404b08434af677b3536d9483f6144487332ad8e9">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_38fed3efd113b0fdeba0e9871703b39d152ad7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\964e7bf162fbbb074c2ff4a470409a39b5811ea0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_5a0b42a5f971b6cc501d0d0e1f7c36a318cd63b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpcore-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="50d62373255daf8fa4f21ce381683ed64a3a95b8">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\httpcore-4.0_5a6d8d7f347e44f093e5344886a25b8865b9edee.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f5dd1dc90a4d997d5059283a77b7a71665e45a2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpcore-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="50d62373255daf8fa4f21ce381683ed64a3a95b8">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.0_5a6d8d7f347e44f093e5344886a25b8865b9edee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\hellocharts-library-1.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="700944cb3a8ce4fe543cfac1a9146a11cbf702dc">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\2\hellocharts-library-1.5.8_1ec4358fd9d78bcba8ff7ab73698574f2287c166\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\6406a4434a159fbc2633c365429d5b2c7e15ba2f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_b6fc44bb61d086d07659d1084c36a48ecbfe3156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_10ad9c38becafe5b8de337aa424fc6c6b8f0ee01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\503105a2fea1f60d982af21f2c281e5ba519da12\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_369c1099e4f738a0eeb3f9bbc0d1af49e15db15c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\d32f8859c2e64618e5c57a2a9ede51adace7c046\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_07c4f7bf8ab1ffbcfa84f6e1db6c69a696f8b71f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpmime-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.2_cfb9383de4838e455d57ca59f52b82357e2c5473\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpclient-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9003011c1b6d28a7331f04251a25e7ccf63c98f8">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\httpclient-4.1.2_ad541a167ded775b54e51a3d5010b7b7401bd87f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\ed4cd093d445302c3afaa57425807aa95bc706bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_f6507878797b9fa59f751ffcc8b2dd6115e7d089.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\a3279cfe143ccf766d64fb97f72a374bd54911b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_f2323b0d2e6be8f0aff14beed1d31a5412d65d3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\ef6357fa2e21c83bd959b7572495b5845ebd1377\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_07ec87d9c6acbf0b32043f249cd7958f31fcc70a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\8c96bae6dbc04f63ac8ee8e9bfda68d28e731d92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_7202b74ffa4bf0d147b06f60b61d90df58445da3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2_cfb9383de4838e455d57ca59f52b82357e2c5473.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\hellocharts-library-1.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="700944cb3a8ce4fe543cfac1a9146a11cbf702dc">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\hellocharts-library-1.5.8_1ec4358fd9d78bcba8ff7ab73698574f2287c166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\c9459aba29bc35619ed4877505e052f348ca26bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_d9aab37b13f96f0270127aaf608244fa5ac3de46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\win\.android\build-cache\b2128a0882e094a9cc0f11e7590491f52ddfd46e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\pre-dexed\debug\classes_945b68659efaf4212fddc6b41f6296be4bfbebcc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\win\Desktop\TestServiceb\app\src\main\libs\httpclient-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9003011c1b6d28a7331f04251a25e7ccf63c98f8">
+        <dex dex="C:\Users\win\Desktop\TestServiceb\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.1.2_ad541a167ded775b54e51a3d5010b7b7401bd87f\classes.dex" />
+    </item>
+
+</items>

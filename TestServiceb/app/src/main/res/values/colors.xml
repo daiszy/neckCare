@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="transparent">#7f000000</color>
+    <!-- 透明的 -->
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#33CC33</color>
+    <color name="colorBlackGreen">#61aa82</color>
+    <color name="colorGray">#B3B3B3</color>
+    <color name="colorBlackGray">#8E8E8E</color>
+    <color name="colorLightGray">#D3D3D3</color>
+    <color name="colorBlack">#0A0A0A</color>
+    <color name="colorBlue">#3366CC</color>
+    <color name="colorLightBlack">#666666</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorLightRed">#CD3333</color>
+    <color name="black">#000000</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#8ad539</color>
+    <color name="main_bg">#ececec</color>
+    <color name="orange">#ff6101</color>
+    <color name="orange_pressed">#ff6160</color>
+
+    <color name="radio_text_normal">#0A000000</color>
+    <color name="radio_text_checked">#ff6101</color>
+
+    <color name="list_selector_pressed">#507EB5A3</color>
+
+    <color name="checkin_select_radio_bg_normal">#f5f5f5</color>
+    <color name="checkin_select_radio_bg_checked">#ffffff</color>
+    <color name="checkin_select_radio_text_normal">#808080</color>
+    <color name="checkin_select_radio_text_checked">#ff6101</color>
+
+    <color name="qr_login_text_normal">#333333</color>
+    <color name="qr_login_text_pressed">#4BC69E</color>
+
+    <color name="ching">#4BC69E</color>
+    <color name="ching_pressed">#4BC66E</color>
+    <color name="divider_color">#ececec</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

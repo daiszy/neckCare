@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Tue Jun 25 10:45:39 CST 2019
+1.base=C\:\\Users\\win\\Desktop\\TestServiceb\\app\\build\\intermediates\\merged_assets\\release\\out
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\win\\Desktop\\TestServiceb\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=ShareSDK.xml
+0.set=ASSET
+0.base=C\:\\Users\\win\\Desktop\\TestServiceb\\app\\build\\intermediates\\merged_assets\\release\\out
+2.baseType=DIRECTORY
+1.path=litepal.xml
