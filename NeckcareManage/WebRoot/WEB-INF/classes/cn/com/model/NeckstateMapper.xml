@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.com.mapper.NeckstateMapper" >
+  <resultMap id="BaseResultMap" type="cn.com.model.Neckstate" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="datetime" property="datetime" jdbcType="TIMESTAMP" />
+    <result column="averneckangle" property="averneckangle" jdbcType="REAL" />
+    <result column="maxneckangle" property="maxneckangle" jdbcType="REAL" />
+    <result column="usephonetime" property="usephonetime" jdbcType="REAL" />
+    <result column="neck_angle" property="neckAngle" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, username, datetime, averneckangle, maxneckangle, usephonetime, neck_angle
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="cn.com.model.NeckstateExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from neckstate
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from neckstate
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from neckstate
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="cn.com.model.NeckstateExample" >
+    delete from neckstate
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="cn.com.model.Neckstate" >
+    insert into neckstate (id, username, datetime, 
+      averneckangle, maxneckangle, usephonetime, 
+      neck_angle)
+    values (#{id,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{datetime,jdbcType=TIMESTAMP}, 
+      #{averneckangle,jdbcType=REAL}, #{maxneckangle,jdbcType=REAL}, #{usephonetime,jdbcType=REAL}, 
+      #{neckAngle,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.com.model.Neckstate" >
+    insert into neckstate
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="datetime != null" >
+        datetime,
+      </if>
+      <if test="averneckangle != null" >
+        averneckangle,
+      </if>
+      <if test="maxneckangle != null" >
+        maxneckangle,
+      </if>
+      <if test="usephonetime != null" >
+        usephonetime,
+      </if>
+      <if test="neckAngle != null" >
+        neck_angle,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="datetime != null" >
+        #{datetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="averneckangle != null" >
+        #{averneckangle,jdbcType=REAL},
+      </if>
+      <if test="maxneckangle != null" >
+        #{maxneckangle,jdbcType=REAL},
+      </if>
+      <if test="usephonetime != null" >
+        #{usephonetime,jdbcType=REAL},
+      </if>
+      <if test="neckAngle != null" >
+        #{neckAngle,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="cn.com.model.NeckstateExample" resultType="java.lang.Integer" >
+    select count(*) from neckstate
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update neckstate
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.username != null" >
+        username = #{record.username,jdbcType=VARCHAR},
+      </if>
+      <if test="record.datetime != null" >
+        datetime = #{record.datetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.averneckangle != null" >
+        averneckangle = #{record.averneckangle,jdbcType=REAL},
+      </if>
+      <if test="record.maxneckangle != null" >
+        maxneckangle = #{record.maxneckangle,jdbcType=REAL},
+      </if>
+      <if test="record.usephonetime != null" >
+        usephonetime = #{record.usephonetime,jdbcType=REAL},
+      </if>
+      <if test="record.neckAngle != null" >
+        neck_angle = #{record.neckAngle,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update neckstate
+    set id = #{record.id,jdbcType=VARCHAR},
+      username = #{record.username,jdbcType=VARCHAR},
+      datetime = #{record.datetime,jdbcType=TIMESTAMP},
+      averneckangle = #{record.averneckangle,jdbcType=REAL},
+      maxneckangle = #{record.maxneckangle,jdbcType=REAL},
+      usephonetime = #{record.usephonetime,jdbcType=REAL},
+      neck_angle = #{record.neckAngle,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.com.model.Neckstate" >
+    update neckstate
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="datetime != null" >
+        datetime = #{datetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="averneckangle != null" >
+        averneckangle = #{averneckangle,jdbcType=REAL},
+      </if>
+      <if test="maxneckangle != null" >
+        maxneckangle = #{maxneckangle,jdbcType=REAL},
+      </if>
+      <if test="usephonetime != null" >
+        usephonetime = #{usephonetime,jdbcType=REAL},
+      </if>
+      <if test="neckAngle != null" >
+        neck_angle = #{neckAngle,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.com.model.Neckstate" >
+    update neckstate
+    set username = #{username,jdbcType=VARCHAR},
+      datetime = #{datetime,jdbcType=TIMESTAMP},
+      averneckangle = #{averneckangle,jdbcType=REAL},
+      maxneckangle = #{maxneckangle,jdbcType=REAL},
+      usephonetime = #{usephonetime,jdbcType=REAL},
+      neck_angle = #{neckAngle,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>
